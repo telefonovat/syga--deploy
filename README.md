@@ -26,3 +26,11 @@ Clone the different SYGA modules to the root under the names webapp, api and eng
 `git clone git@github.com:telefonovat/syga--engine.git engine`
 
 Run `docker compose up -f docker-compose.local.yaml --build`.
+
+You can test the frontend, api and engine at the ports you specified.
+
+### Production mode
+
+Run `docker compose -f ./docker-compose.local.yaml -f docker-compose.prod.yaml up --build`.
+
+Redirect your http requests to the webapp port specified above. Nginx running inside docker compose will handle the proxy-passing.
