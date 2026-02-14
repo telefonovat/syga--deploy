@@ -1,6 +1,6 @@
 services:
   webapp:
-    image: kheltan/syga-prod-webapp:1.0.0
+    image: kheltan/syga-prod-webapp:1.0.1
     container_name: syga-prod-webapp
     build: !reset null
   api:
