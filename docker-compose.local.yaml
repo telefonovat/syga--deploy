@@ -10,14 +10,16 @@ services:
   webapp:
     build:
       context: webapp
-      args:
-        - API_PORT=${API_PORT}
       secrets:
         - webapp_github_token
     image: syga-dev-webapp:local
     container_name: syga-dev-webapp
     volumes:
       - dist:/app/dist:z
+    develop:
+      watch:
+        - action: rebuild
+          path: ./webapp/src/
   api:
     depends_on:
       - engine
