@@ -34,6 +34,10 @@ services:
       PORT: ${API_PORT}
     ports:
       - ${API_PORT}:${API_PORT}
+    develop:
+      watch:
+        - action: rebuild
+          path: ./api/src/
   nginx:
     depends_on:
       - webapp
