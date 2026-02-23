@@ -5,7 +5,7 @@ services:
     build: !reset null
     develop: !reset null
   api:
-    image: kheltan/syga-prod-api:0.1.0-beta
+    image: kheltan/syga-prod-api:0.2.0-beta
     container_name: syga-prod-api
     build: !reset null
     develop: !reset null
