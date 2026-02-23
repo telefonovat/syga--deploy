@@ -20,7 +20,7 @@ ENGINE_PORT=5000
 
 ### How to run locally
 
-Run `docker compose up -f docker-compose.yaml -f docker-compose.local.yaml --build`.
+Run `docker compose -f docker-compose.yaml -f docker-compose.local.yaml up --build`.
 
 The two file flags need to be in order as above.
 
