@@ -3,7 +3,7 @@ services:
     restart: always
     build:
       context: engine
-      dockerfile: Dockerfile.dev
+      dockerfile: Dockerfile
     image: syga-dev-engine:local
     container_name: syga-dev-engine
     ports:
