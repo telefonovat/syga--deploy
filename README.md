@@ -11,9 +11,11 @@ Clone this repository.
 
 Create an .env file as follows.
 
+~~~
 WEBAPP_PORT=8100
 API_PORT=8200
 ENGINE_PORT=5000
+~~~
 
 ### Dev mode
 
