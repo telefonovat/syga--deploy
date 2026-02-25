@@ -21,6 +21,8 @@ services:
       watch:
         - action: rebuild
           path: ./webapp/src/
+    environment:
+      VITE_SYGA_VERSION: 0.1.0-beta
   api:
     depends_on:
       - engine
