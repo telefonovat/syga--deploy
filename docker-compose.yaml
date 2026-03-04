@@ -22,7 +22,7 @@ services:
         - action: rebuild
           path: ./webapp/src/
     environment:
-      VITE_SYGA_VERSION: 0.5.0-beta
+      VITE_SYGA_VERSION: 0.5.1-beta
   api:
     depends_on:
       - engine
