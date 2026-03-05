@@ -1,6 +1,6 @@
 services:
   webapp:
-    image: kheltan/syga-prod-webapp:0.6.1-beta
+    image: kheltan/syga-prod-webapp:0.7.0-beta
     container_name: syga-prod-webapp
     build: !reset null
     develop: !reset null
@@ -14,6 +14,6 @@ services:
       SEQ_SERVER_URL: ${SEQ_SERVER_URL}
       SEQ_SERVER_API_KEY: ${SEQ_SERVER_API_KEY}
   engine:
-    image: kheltan/syga-prod-engine:0.3.0-beta
+    image: kheltan/syga-prod-engine:0.3.1-beta
     container_name: syga-prod-engine
     build: !reset null
