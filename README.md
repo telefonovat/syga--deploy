@@ -5,6 +5,14 @@ The end result is that the webapp can be accessed at a local port.
 
 You can access through this port for testing or on a VPS, reroute HTTP requests to this port.
 
+## Individual services
+
+The source code to the webapp, api, and engine can be found at the below repositories
+
+- [Webapp in Vue Typescript](https://github.com/telefonovat/webapp-syga)
+- [API in Node JS with Typescript](https://github.com/telefonovat/api-syga)
+- [Engine in Python](https://github.com/telefonovat/syga--engine)
+
 ## How to run
 
 Clone this repository.
